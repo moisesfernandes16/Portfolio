@@ -7,8 +7,7 @@
 
 body {
     background-color: #393333;
-
-
+    overflow-y: hidden;
 }
 
 body p {
