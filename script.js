@@ -1,15 +1,16 @@
-const reveals = document.querySelectorAll('.reveal');
+const reveal = document.querySelectorAll(".reveal")
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add('visible');
-    } else {
-      entry.target.classList.remove('visible'); 
     }
-  });
+    else {
+      entry.target.classList.remove('visible');
+    }
+  })
 }, {
   threshold: 0.2
 });
 
-reveals.forEach(el => observer.observe(el));
+reveal.forEach(el => observer.observe(el));
