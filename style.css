@@ -2,10 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    overflow-x: hidden
-}
-html{
-    
+    overflow-x: hidden;
 }
 body {
     background-color: #393333;
@@ -158,8 +155,7 @@ hr {
     background-color: #000000;
     width: 253px;
     height: 120px;
-    margin: 10px 0 10px 10px;
-    margin-bottom: 55px;
+    margin: 10px 0 55px 10px;
     padding: 15px 0 15px 15px;
     border-radius: 25px 0 0 25px;
 }
@@ -364,13 +360,11 @@ footer button {
 
 .reveal {
     opacity: 0;
-    transform: translatex(40px);
+    transform: translateX(40px);
     transition: opacity 0.6s ease, transform 0.6s ease;
-    overflow-x: hidden;
 }
 
 .reveal.visible {
     opacity: 1;
-    transform: translatex(0);
-    overflow-x: hidden;
+    transform: translateX(0);
 }
