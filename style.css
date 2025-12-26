@@ -19,7 +19,7 @@ header {
 
 #apresentação {
     background-color: #000000;
-    max-width: 382px ;
+    max-width: 382px auto ;
     height: 795px;
     margin: 0 auto;
 }
