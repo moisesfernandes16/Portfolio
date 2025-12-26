@@ -2,13 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
-
+    overflow-x: hidden
 }
-
+html{
+    
+}
 body {
     background-color: #393333;
-
 }
 
 body p {
@@ -21,7 +21,7 @@ header {
 
 #apresentação {
     background-color: #000000;
-    width: 340px auto;
+    width: 350px auto;
     height: 795px;
     margin: 0 auto;
 }
@@ -60,11 +60,9 @@ header {
 .descrição1 {
     color: #fff;
     font-size: 29px;
-    width: 350px auto;
     max-width: 350px;
     font-family: Koulen, sans-serif;
     font-weight: 400;
-    font-style: normal;
     padding: 0 15px;
 
 }
@@ -73,10 +71,10 @@ header {
     color: white;
     padding: 0px 15px 15px 0px;
     font-size: 11px;
-    max-width: 290px;
-    width: 290px auto;
+    max-width: 260px;
     font-family: lato, sans-serif;
     font-weight: 400;
+    
 }
 
 .sobreMimDesc {
@@ -93,6 +91,7 @@ header {
     height: auto;
     top: 81px;
     right: 0;
+     border-radius: 6px
 }
 
 hr {
@@ -199,7 +198,7 @@ hr {
 .descSkill2 {
     font-size: 9px;
     width: 120px;
-    height: 180px;
+    
 }
 
 .textDescSkill {
