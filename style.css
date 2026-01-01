@@ -2,9 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
+
 }
-html, body {
+
+html,
+body {
     background-color: #393333;
     overflow-x: hidden;
 }
@@ -19,7 +21,7 @@ header {
 
 #apresentação {
     background-color: #000000;
-    width: 482px auto ;
+    width: 482px auto;
     height: 795px;
     margin: 0 auto;
 }
@@ -72,7 +74,7 @@ header {
     max-width: 260px;
     font-family: lato, sans-serif;
     font-weight: 400;
-    
+
 }
 
 .sobreMimDesc {
@@ -195,7 +197,7 @@ hr {
 .descSkill2 {
     font-size: 9px;
     width: 120px;
-    
+
 }
 
 .textDescSkill {
@@ -258,9 +260,9 @@ hr {
 #card:hover {
     transform: rotateY(180deg);
     transition: transform 0.6s ease, box-shadow 0.4s ease;
-    box-shadow: 0 0 40px 10px rgba(4, 3, 54, 0.8);
+    box-shadow: 0 0 40px 10px rgba(174, 174, 189, 0.8);
     border-radius: 25px;
-    
+
 }
 
 #cardFront {
@@ -299,25 +301,70 @@ hr {
     text-align: center;
 }
 
+#btnContato {
+    height: 35px;
+    width: 175px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    text-decoration: none;
+}
+
+#btnContato:hover {
+    text-decoration: underline;
+
+}
+
+#btnRedes button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 0;   
+}
+#btnRedes{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.reveal {
+    opacity: 0;
+    transform: translateX(40px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
 footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 210px;
 }
 
 #copyRight {
     display: flex;
     align-items: center;
     flex-direction: row;
-    font-size: 9px;
+    font-size: 19px;
 
 }
 
 #footerFinal {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
     background-color: #000000;
 }
 
@@ -337,37 +384,8 @@ footer button {
     border: #fff;
     border-radius: 5px;
     width: 105px;
-    margin-bottom: 15px;
+    height: 42px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 55px;
-    height: 18px;
     flex-direction: row;
-}
-
-#btnContato {
-    height: 35px;
-    width: 75px;
-    color: white;
-}
-
-#btnRedes button {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: end;
-    gap: 15px;
-    margin: 0;
-}
-
-.reveal {
-    opacity: 0;
-    transform: translateX(40px);
-    transition: opacity 0.6s ease, transform 0.6s ease;
-}
-
-.reveal.visible {
-    opacity: 1;
-    transform: translateX(0);
 }
