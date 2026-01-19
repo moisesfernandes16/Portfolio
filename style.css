@@ -9,6 +9,10 @@ html,
 body {
     background-color: #393333;
     overflow-x: hidden;
+    
+}
+body{
+    overflow-y: hidden;
 }
 
 body p {
@@ -24,6 +28,7 @@ header {
     width: 482px auto;
     height: 795px;
     margin: 0 auto;
+    overflow-y: hidden;
 }
 
 .quemSou {
@@ -353,9 +358,9 @@ footer {
 
 #copyRight {
     display: flex;
-    align-items: center;
-    flex-direction: row;
     font-size: 19px;
+    gap: 1;
+    margin: 12px;
 
 }
 
@@ -364,7 +369,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 12px;
+    gap: 14px;
+    margin: 24px 0  29px 0;
     background-color: #000000;
 }
 
