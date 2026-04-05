@@ -498,5 +498,17 @@ footer button {
         opacity: 1;
         transform: translateY(0);
     }
+    footer{
+        width:1493px;
+    }
+    #footerFinal{
+        width: 1493px;
+        
+        text-decoration: none;
+    }
+    footer h1{
+        border: none;
+        height: 25px;
+    }
 
 }
